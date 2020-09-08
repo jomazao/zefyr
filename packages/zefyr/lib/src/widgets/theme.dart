@@ -337,6 +337,7 @@ class AttributeTheme {
         monospaceFontFamily = 'Menlo';
         break;
       case TargetPlatform.android:
+      case TargetPlatform.windows:
       case TargetPlatform.fuchsia:
         monospaceFontFamily = 'Roboto Mono';
         break;
